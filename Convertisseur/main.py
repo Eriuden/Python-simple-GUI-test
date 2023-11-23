@@ -19,7 +19,7 @@ while True:
     if event == "CONVERSION":
         input_value = values["INPUT"]
         if input_value.isnumeric():
-            match values["UNITS"]:
+            match values["UNITE"]:
                 case "km/miles":
                     output = round(float(input_value)) * 0.6214,2
                     output_string = f"{input_value} km font {output} miles"
