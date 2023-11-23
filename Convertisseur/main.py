@@ -36,10 +36,4 @@ while True:
         else:   
             window["OUTPUT"].update("Veuillez entrer un nombre")
 
-    if event == "Bouton2":
-        print("autre chose")
-        
-    if event == "TEXT":
-        print("Pression du texte")
-
 window.close()
