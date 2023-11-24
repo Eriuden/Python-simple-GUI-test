@@ -36,5 +36,5 @@ while True:
         else:   
             window["OUTPUT"].update("Veuillez entrer un nombre")
 
-
 window.close()
+
