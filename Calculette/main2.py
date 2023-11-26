@@ -48,7 +48,7 @@ while True:
 
     if event == "Enter":
         full_operation.append("".join(current_num))
-        result = eval("". join(full_operation))
+        result = eval("".join(full_operation))
         window["TEXT"].update(result)
         full_operation = []
 
